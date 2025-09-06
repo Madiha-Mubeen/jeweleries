@@ -45,13 +45,24 @@ body, html {
     font-weight: 540;
 }
 
-nav ul  {
+nav ul   {
     list-style: none;
     display: flex;
     gap: 18px;
     font-size: 2rem;
-    font-weight: 230px;
+    font-weight: 200px;
     text-decoration: underline;
+ 
+}
+
+nav ul li a   {
+    list-style: none;
+    display: flex;
+    gap: 18px;
+    font-size: 2rem;
+    font-weight: 200px;
+    text-decoration: underline;
+    color: #eb4174;
 }
 .gallery-rings, .gallery-earsets, .gallery-bracelets {
     display: grid;
