@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Ballet:opsz@16..72&family=Bitcount+Prop+Single:wght@100..900&family=Bitcount:wght@100..900&family=DM+Serif+Text:ital@0;1&family=Griffy&family=Kings&family=Nosifer&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Playwrite+AU+NSW:wght@100..400&family=Rouge+Script&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, html {
+    height: 100%;
+    font-family: 'Times New Roman', sans-serif;
+    color: rgb(236, 74, 101);
+   overflow-y: auto;
+   /*overflow-x: hidden;*/
+   font-family: 'Ballet', cursive;
+ 
+}
+
+.bg-video {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 50%;
+    object-fit: cover;
+    z-index: -1;
+    overflow: auto;
+}
+
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 15vh;
+    width: 100%;
+    padding: 25px 29px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    gap: 20px;
+    background: rgba(255, 192, 203, 0.6);
+    z-index: 10;
+}
+
+.logo {
+    font-size: 3rem;
+    font-weight: 540;
+}
+
+nav ul  {
+    list-style: none;
+    display: flex;
+    gap: 18px;
+    font-size: 2rem;
+    font-weight: 230px;
+    text-decoration: underline;
+}
+.gallery-rings, .gallery-earsets, .gallery-bracelets {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 80px;
+    padding: 0 30px;
+    width: 100%;
+    margin-top: 150px;
+}
+
+ 
+
+.items {
+    background: transparent;
+    border-radius: 30px;
+   width: 250px;
+   height: 250px;
+    box-shadow: 2px 4px 0 rgba(180, 112, 112, 0.5);
+    text-align: center;
+    transition: transform 0.5s ease, box-shadow 0.5s ease;
+}
+.items:hover {
+    transform: translateY(-5px);
+    box-shadow: 2px 4px 20px rgba(0,0,0,0.1);
+}
+
+.items img {
+    width: 100%;
+    height: 200px;
+    border-radius: 12px;
+    object-fit: cover;
+    display: block;
+}
+
+.info {
+    padding: 20 30px;
+}
+
+.info h3 {
+    font-size: 1.4rem;
+    color: #ad1e82;
+    margin: 0;
+}
