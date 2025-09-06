@@ -16,3 +16,7 @@ When design & layout of card was done it was difficult, & how to display correct
 
 ## Link to open
 [Jewelaries](https://madiha-mubeen.github.io/jeweleries/)
+
+<br><br><br>
+
+[![Athena Award Badge](https://img.shields.io/endpoint?url=https%3A%2F%2Faward.athena.hackclub.com%2Fapi%2Fbadge)](https://award.athena.hackclub.com?utm_source=readme)
