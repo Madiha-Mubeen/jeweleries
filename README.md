@@ -9,7 +9,7 @@ This Jewelaries is a collection of my style acessories like <b> rings, earsets, 
 - Footer 
 
 ## Technologies Used: 
-<b> HTML <br>  CSS <br> Images mostly from printerest & google ! <br> Video as a background from printrest !
+<b> HTML <br>  CSS <br> Images mostly from printerest & google ! <br> Video as a background from printrest ! <br> <a href='https://pngtree.com/freepng/luxury-linear-lotus-flower-beauty-spa-logo-design_7427513.html'>png image favicon from pngtree.com/</a>
 
 ## Difficulties Faced:
 When design & layout of card was done it was difficult, & how to display correctly like my video background should also be kind of visible.
